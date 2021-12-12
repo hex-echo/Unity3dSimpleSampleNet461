@@ -5,11 +5,8 @@ using UnityEngine.UI;
 
 public class GetMoonie : MonoBehaviour {
 
-    void Start () {
-    }
-
     public void updateMoonies () {
-        UpdateMoonies.totalMoonies++;
+        UpdateMoonies.totalMoonies += IncomeCalculator.minerRate;
     }
 
 }
